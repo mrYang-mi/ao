@@ -3,6 +3,7 @@ package com.wish.hearthotel.entities;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import java.io.Serializable;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -33,7 +34,7 @@ public class Student implements Serializable {
 
     private String coll;
 
-    private String class;
+    private String  classes;
 
     private Integer age;
 

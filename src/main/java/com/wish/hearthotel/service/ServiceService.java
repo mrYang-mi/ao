@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2020-05-29
  */
 public interface ServiceService extends IService<Service> {
-
+    public String login(String username, String password);
 }

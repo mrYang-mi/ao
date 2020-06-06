@@ -38,6 +38,7 @@
         <artifactId>mybatis-plus-boot-starter</artifactId>
         <version>3.3.1</version>
     </dependency>
+
     <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
@@ -64,7 +65,5 @@
         <artifactId>slf4j-log4j12</artifactId>
         <version>1.7.7</version>
     </dependency>
-
 </dependencies>
-
 </project>
