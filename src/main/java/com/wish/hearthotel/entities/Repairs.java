@@ -21,6 +21,6 @@ public class Repairs {
     //报修情况
     private String situation;
     //时间
-    private Date time;
+    private String time;
 
 }

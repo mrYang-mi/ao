@@ -24,7 +24,7 @@ public class Student implements Serializable {
     private static final long serialVersionUID=1L;
 
     @TableId(value = "id", type = IdType.AUTO)
-    private String id;
+    private int id;
 
     private String name;
 

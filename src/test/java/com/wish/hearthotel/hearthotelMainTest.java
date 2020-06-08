@@ -10,6 +10,8 @@ import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.Date;
+
 
 @SpringBootTest
 public class hearthotelMainTest {

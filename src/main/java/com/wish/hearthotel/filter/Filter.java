@@ -28,7 +28,7 @@ public class Filter implements javax.servlet.Filter {
             if (null != session && null != session.getAttribute("username")) {
                 chain.doFilter(request, response);
             } else {
-response.sendRedirect("login.html");
+response.sendRedirect("");
             }
         }
 
